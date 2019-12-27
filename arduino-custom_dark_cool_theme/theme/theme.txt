@@ -1,0 +1,134 @@
+#FUNCTIONS COLOR 			#ff6699 - ORANGE			KEYWORD1
+#FUNCTIONS COLOR			#ff6699 - ORANGE			KEYWORD2
+#STRUCTURE COLORS 			#ff99cc - GREEN				KEYWORD3
+#VARIABLES COLOR 			#00979C - BLUE				LITERAL1
+
+#ERROR COLOR				#A61717 - RED
+#COMMENTS // COLOR			#95A5A6 - LIGHT GREY
+#COMMENTS /**/ COLOR		#404344	- DARK GREY
+
+
+# GUI - STATUS
+status.notice.fgcolor = #FFFFFF
+status.notice.bgcolor = #404040
+status.error.fgcolor = #FFFFFF
+status.error.bgcolor = #ff3385
+status.edit.fgcolor = #FFFFFF
+status.edit.bgcolor = #F1B500
+status.font = SansSerif,plain,12
+
+# GUI - TABS
+# settings for the tabs at the top
+# (tab images are stored in the lib/theme folder)
+header.bgcolor = #262626
+header.text.selected.color = #5b4488
+header.text.unselected.color = #3C3C3C
+header.text.font = SansSerif,bold,12
+
+# GUI - CONSOLE
+console.font = Monospaced,plain,11
+console.font.macosx = Monaco,plain,10
+console.color = #030303
+console.output.color = #eeeeee
+console.error.color = #ff4d94
+
+# GUI - BUTTONS
+buttons.bgcolor = #404040
+buttons.status.font = SansSerif,plain,12
+buttons.status.color = #ffffff
+
+# GUI - LINESTATUS
+linestatus.color = #ffffff
+linestatus.bgcolor = #404040
+
+# EDITOR - DETAILS
+
+# foreground and background colors
+editor.fgcolor = #b3ffff
+editor.bgcolor = #0c0c0c
+
+# highlight for the current line
+editor.linehighlight.color=#262626
+# highlight for the current line
+editor.linehighlight=true
+
+# caret blinking and caret color
+editor.caret.color = #ff66ff
+
+# color to be used for background when 'external editor' enabled
+editor.external.bgcolor = #161616
+
+# selection color
+editor.selection.color = #46174f
+
+# area that's not in use by the text (replaced with tildes)
+editor.invalid.style = #7e7e7e,bold
+
+# little pooties at the end of lines that show where they finish
+editor.eolmarkers = false
+editor.eolmarkers.color = #0b0b0c
+
+# bracket/brace highlighting
+editor.brackethighlight = false
+editor.brackethighlight.color = #0d142f
+
+
+# TEXT - KEYWORDS
+
+# FUNCTIONS
+editor.keyword1.style = #ff66ff,bold
+editor.data_type.style = #ff6699,bold
+
+# METHODS
+editor.keyword2.style = #ff66ff,plain
+editor.function.style = #ff6699,plain
+
+# STRUCTURES
+editor.keyword3.style = #9933ff,plain
+editor.reserved_word.style = #66ccff,bold
+
+
+# TEXT - LITERALS
+
+# constants & datatypes
+editor.literal1.style = #6666ff,plain
+
+# p5 built in variables: e.g. mouseX, width, pixels
+editor.literal2.style = #6666ff,plain
+editor.variable.style = #6666ff,plain
+editor.reserved_word_2.style = #c299ff,plain
+editor.literal_boolean.style = #00f7ff,plain
+editor.literal_char.style = #6666ff,plain
+editor.literal_string_double_quote.style = #80ccff,plain
+editor.preprocessor.style = #e580ff,plain
+
+# http://www.arduino.cc/ - GET RID OF UNDERLINE!
+editor.url.style = #81A421,plain
+
+# e.g. + - = /
+editor.operator.style = #737373,bold
+
+
+# ?? maybe this is for words followed by a colon
+# like in case statements or goto
+editor.label.style = #7e7e7e,bold
+
+
+# TEXT - COMMENTS
+editor.comment1.style = #4d4d4d,plain
+editor.comment2.style = #4d4d4d,plain
+
+
+# LINE STATUS - editor line number status bar at the bottom of the screen
+linestatus.font	   = SansSerif,plain,10
+linestatus.height  = 20
+
+# GUI - PLOTTING
+# color cycle created via colorbrewer2.org
+plotting.bgcolor = #ffffff
+plotting.color = #ffffff
+plotting.graphcolor.size = 4
+plotting.graphcolor.00 = #2c7bb6
+plotting.graphcolor.01 = #fdae61
+plotting.graphcolor.02 = #d7191c
+plotting.graphcolor.03 = #abd9e9

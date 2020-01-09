@@ -70,7 +70,7 @@ editor.eolmarkers.color = #0b0b0c
 
 # bracket/brace highlighting
 editor.brackethighlight = false
-editor.brackethighlight.color = #0d142f
+editor.brackethighlight.color = #89159d
 
 
 # TEXT - KEYWORDS
